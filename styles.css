@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#nav {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#nav button:hover {
+    background-color: #555;
+}
+
+#dora-img {
+    width: 80%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.page {
+    display: none;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#launch-page input {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#launch-page button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#launch-page button:hover {
+    background-color: #666;
+}
+
+#launch-message {
+    margin-top: 20px;
+}
+
+#open-info {
+    margin-top: 20px;
+}
+

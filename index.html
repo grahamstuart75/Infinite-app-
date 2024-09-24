@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme" id="body">
+    <header>
+        <h1>Welcome ⚡ To Our App</h1>
+        <div class="theme-toggle">
+            <label for="themeSelect">Theme:</label>
+            <select id="themeSelect">
+                <option value="light">Day</option>
+                <option value="dark">Night</option>
+                <option value="custom">Custom</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section id="homeSection">
+            <h2>Last Activity</h2>
+            <img src="homework.png" alt="Homework Image" />
+        </section>
+
+        <section id="questionPaperSection">
+            <h2>Welcome to our question paper section</h2>
+            <p>This section has recent exam model and original Question Paper</p>
+
+            <button id="modelButton">Model Question Paper</button>
+            <button id="originalButton">Original Question Paper</button>
+
+            <div id="modelPapers" class="paperSection">
+                <h3>Model Question Paper</h3>
+                <ul>
+                    <li><a href="modeltamilquestion.pdf" target="_blank">Tamil</a></li>
+                    <li><a href="modelenglishquestion.pdf" target="_blank">English</a></li>
+                    <li><a href="modelmathquetion.pdf" target="_blank">Math</a></li>
+                    <li><a href="modelsocialquestion.pdf" target="_blank">Social</a></li>
+                    <li><a href="modelscience.pdf" target="_blank">Science</a></li>
+                    <li><a href="#">Computer (Coming soon)</a></li>
+                </ul>
+                <p>If any issues, contact <a href="mailto:grahamstuart93876@gmail.com">grahamstuart93876@gmail.com</a></p>
+            </div>
+
+            <div id="originalPapers" class="paperSection">
+                <h3>Original Question Paper</h3>
+                <ul>
+                    <li><a href="tamil.pdf" target="_blank">Tamil</a></li>
+                    <li><a href="english.pdf" target="_blank">English</a></li>
+                    <li><a href="math.pdf" target="_blank">Math</a></li>
+                    <li><a href="science.pdf" target="_blank">Science</a></li>
+                    <li><a href="social.pdf" target="_blank">Social</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="chatSection">
+            <h2>Chat</h2>
+            <div id="chatBox"></div>
+            <input type="text" id="chatInput" placeholder="Enter your message...">
+            <button id="sendButton">Send</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
